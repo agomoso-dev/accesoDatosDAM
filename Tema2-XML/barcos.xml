@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<flota>
+    <!-- Barcos de la flota, comentario de ejemplo -->
+    <barco>
+        <nombre>Titanic</nombre>
+        <año>1912</año>
+        <constructor>Harland and Wolff</constructor>
+        <tipo>Transatlántico</tipo>
+        <eslora>269</eslora>
+        <tonelaje>46328</tonelaje>
+    </barco>
+    <barco>
+        <nombre>USS Enterprise</nombre>
+        <año>1961</año>
+        <constructor>Newport News Shipbuilding</constructor>
+        <tipo>Portaaviones</tipo>
+        <eslora>342</eslora>
+        <tonelaje>93284</tonelaje>
+    </barco>
+    <barco>
+        <nombre>Queen Mary 2</nombre>
+        <año>2004</año>
+        <constructor>Chantiers de l'Atlantique</constructor>
+        <tipo>Crucero</tipo>
+        <eslora>345</eslora>
+        <tonelaje>149215</tonelaje>
+    </barco>
+    <barco>
+        <nombre>Oasis of the Seas</nombre>
+        <año>2009</año>
+        <constructor>STX Europe</constructor>
+        <tipo>Crucero</tipo>
+        <eslora>362</eslora>
+        <tonelaje>225282</tonelaje>
+    </barco>
+    <barco>
+        <nombre>Seawise Giant</nombre>
+        <año>1979</año>
+        <constructor>Sumitomo Heavy Industries</constructor>
+        <tipo>Petrolero</tipo>
+        <eslora>458</eslora>
+        <tonelaje>564763</tonelaje>
+    </barco>
+    <barco>
+        <nombre>USS Zumwalt</nombre>
+        <año>2016</año>
+        <constructor>Bath Iron Works</constructor>
+        <tipo>Destructor</tipo>
+        <eslora>190</eslora>
+        <tonelaje>14564</tonelaje>
+    </barco>
+    <barco>
+        <nombre>Emma Maersk</nombre>
+        <año>2006</año>
+        <constructor>Odense Steel Shipyard</constructor>
+        <tipo>Portacontenedores</tipo>
+        <eslora>397</eslora>
+        <tonelaje>170794</tonelaje>
+    </barco>
+    <barco>
+        <nombre>MS Allure of the Seas</nombre>
+        <año>2010</año>
+        <constructor>STX Europe</constructor>
+        <tipo>Crucero</tipo>
+        <eslora>362</eslora>
+        <tonelaje>225282</tonelaje>
+    </barco>
+    <barco>
+        <nombre>USS Gerald R. Ford</nombre>
+        <año>2017</año>
+        <constructor>Newport News Shipbuilding</constructor>
+        <tipo>Portaaviones</tipo>
+        <eslora>337</eslora>
+        <tonelaje>100000</tonelaje>
+    </barco>
+    <barco>
+        <nombre>Symphony of the Seas</nombre>
+        <año>2018</año>
+        <constructor>Chantiers de l'Atlantique</constructor>
+        <tipo>Crucero</tipo>
+        <eslora>361</eslora>
+        <tonelaje>228081</tonelaje>
+    </barco>
+</flota>

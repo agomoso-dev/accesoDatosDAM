@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<biblioteca>
+  <libro categoria="infantil">
+    <titulo>Harry Potter y la piedra filosofal</titulo>
+    <autor>J.K. Rowling</autor>
+    <anio>1997</anio>
+    <precio moneda="EUR">19.99</precio>
+  </libro>
+  <libro categoria="cocina">
+    <titulo>Cocina fácil</titulo>
+    <autor>Gordon Ramsay</autor>
+    <anio>2020</anio>
+    <precio moneda="USD">29.95</precio>
+  </libro>
+  <revista>
+    <nombre>National Geographic</nombre>
+    <edicion mes="junio" anio="2023"/>
+    <articulos>
+      <articulo>
+        <titulo>Descubrimientos en el Amazonas</titulo>
+        <pagina>12</pagina>
+      </articulo>
+      <articulo>
+        <titulo>La vida en el fondo marino</titulo>
+        <pagina>45</pagina>
+      </articulo>
+    </articulos>
+  </revista>
+</biblioteca>
