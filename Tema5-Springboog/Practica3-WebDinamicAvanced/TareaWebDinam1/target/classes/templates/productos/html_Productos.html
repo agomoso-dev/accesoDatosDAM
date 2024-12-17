@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Productos</title>
+</head>
+<body>
+    <h1>Lista de Productos</h1>
+    <ul>
+        <li th:each="producto : ${TodosMisProductos}"> {# Recorrer TodosMisProductos que le pase en la lista #}
+            <h2 th:text="${producto.nombre}">Nombre del producto</h2>
+            <p>Código: <span th:text="${producto.codigo}">Código</span></p>
+            <p>Descripción: <span th:text="${producto.descripcion}">Descripción</span></p>
+            <p>Precio: <span th:text="${producto.precio}">Precio</span></p>
+            <p>Cantidad: <span th:text="${producto.cantidad}">Cantidad</span></p>
+            <hr/>
+        </li>
+    </ul>
+</body>
+</html>

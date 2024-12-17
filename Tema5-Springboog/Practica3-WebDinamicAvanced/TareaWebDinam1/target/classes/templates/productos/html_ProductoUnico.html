@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title th:text="${MiProducto.nombre}">Producto</title>
+    </head>
+    <body>
+        <h1 th:text="${MiProducto.nombre}">Nombre del Producto</h1>
+        <p th:text="'Codigo: ' + ${MiProducto.codigo}">Código</p>
+        <p th:text="'Descripcion: ' + ${MiProducto.descripcion}">Descripción</p>
+        <p th:text="'Precio: ' + ${MiProducto.precio}">Precio</p>
+        <p th:text="'Cantidad disponible: ' + ${MiProducto.cantidad}">Cantidad</p>
+    </body>
+</html>
