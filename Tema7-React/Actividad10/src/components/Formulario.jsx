@@ -4,7 +4,7 @@ import { Box, TextField, Button, Typography } from '@mui/material';
 import { useNavigate } from 'react-router-dom';
 
 const Formulario = () => {
-    const { setDatosFormulario } = useContext(FormularioContext);
+    const { setDatosFormulario, setCiudad } = useContext(FormularioContext);
     const navegar = useNavigate();
 
     const manejarEnvio = (evento) => {
@@ -14,9 +14,10 @@ const Formulario = () => {
             nombre: datos.get('nombre'),
             apellidos: datos.get('apellidos'),
             correo: datos.get('correo'),
-            contraseña: datos.get('contraseña')
+            ciudad: datos.get('ciudad')
         };
         setDatosFormulario(valoresFormulario);
+        setCiudad(datos.get('ciudad'));
         navegar('/resumen');
     };
 
@@ -54,6 +55,12 @@ const Formulario = () => {
                 label="Contraseña"
                 type="password"
                 required
+            />
+            <TextField
+                fullWidth
+                margin="normal"
+                name="ciudad"
+                label="Ciudad"
             />
             <Button
                 type="submit"
