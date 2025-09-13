@@ -1,12 +1,12 @@
 
-# 📂 Proyecto de Acceso a Datos – Curso DAM
+# Proyecto de Acceso a Datos – Curso DAM
 
 Bienvenido a mi repositorio de **Acceso a Datos** del ciclo de **Desarrollo de Aplicaciones Multiplataforma (DAM)**.
 Aquí se recopilan todas las prácticas realizadas durante el curso, donde apliqué distintas tecnologías para **gestionar, procesar y mostrar datos** de manera eficiente en aplicaciones Java y web.
 
 ---
 
-## 🚀 Tecnologías y Herramientas
+## Tecnologías y Herramientas
 
 | Área             | Tecnologías                                           |
 | ---------------- | ----------------------------------------------------- |
@@ -17,7 +17,7 @@ Aquí se recopilan todas las prácticas realizadas durante el curso, donde apliq
 
 ---
 
-## 📝 Actividades Realizadas
+## Actividades Realizadas
 
 1. **JDBC**
 
@@ -55,23 +55,12 @@ Aquí se recopilan todas las prácticas realizadas durante el curso, donde apliq
 
 ---
 
-## 🎯 Objetivo del Proyecto
+## Objetivo del Proyecto
 
 El propósito de este proyecto es **demostrar la integración de tecnologías de acceso a datos y desarrollo web**, mostrando un flujo completo que va desde:
 
 **Obtención → Procesamiento → Persistencia → Presentación de datos**
 
 Todo esto aplicando buenas prácticas de programación y arquitectura de software.
-
----
-
-## 📌 Conclusión
-
-Este repositorio es un reflejo práctico de mis conocimientos adquiridos en el curso de DAM, mostrando mi capacidad de:
-
-* Trabajar con **Java y frameworks modernos**
-* Gestionar **bases de datos y datos estructurados**
-* Crear **interfaces web interactivas**
-* Integrar de manera **coherente frontend y backend**
 
 ---
